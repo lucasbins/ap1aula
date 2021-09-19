@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'periodo.dart';
+import 'card.dart';
 
 class SalasVirtuais extends StatelessWidget {
   _salasVirtuais() {
@@ -18,6 +19,7 @@ class SalasVirtuais extends StatelessWidget {
                 fontWeight: FontWeight.bold),
           ),
           Periodo(),
+          Cards(),
         ],
       ),
     );
