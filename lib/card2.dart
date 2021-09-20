@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class Cards extends StatelessWidget {
+class Cards2 extends StatelessWidget {
   _card() {
     return Container(
-      width: double.infinity,
       margin: EdgeInsets.only(top: 20),
+      width: double.infinity,
       height: 240,
       decoration: new BoxDecoration(
         borderRadius: BorderRadius.circular(4),
@@ -28,7 +28,7 @@ class Cards extends StatelessWidget {
           topLeft: Radius.circular(4),
           topRight: Radius.circular(4),
         ),
-        color: Colors.lightBlue[300],
+        color: Colors.green[900],
       ),
       child: Row(
         children: [_titulo(), _porcentagem()],
@@ -47,7 +47,7 @@ class Cards extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Desenvolvimento de Sistemas Móveis',
+              'Fundamentos de Inteligência Artificial',
               style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -55,7 +55,7 @@ class Cards extends StatelessWidget {
             ),
             Spacer(),
             Text(
-              'Turma: 0658-A-51N - Graduação',
+              'Turma: 0388-A-41N/42N - Graduação',
               style: TextStyle(color: Colors.white, fontSize: 10),
             ),
             Spacer(flex: 5)
@@ -74,13 +74,13 @@ class Cards extends StatelessWidget {
             height: 70,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
-              border: Border.all(width: 3.0, color: Colors.yellow),
+              border: Border.all(width: 3.0, color: Colors.grey),
             ),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('100%',
+                Text('0%',
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 16,
@@ -117,13 +117,11 @@ class Cards extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
-                  '!',
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20,
-                      fontWeight: FontWeight.w900),
-                ),
+                Text('!',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+                        fontWeight: FontWeight.w900)),
               ],
             ),
           ),
@@ -173,7 +171,7 @@ class Cards extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-            '152103',
+            '151123',
             style: TextStyle(
                 color: Colors.black, fontSize: 13, fontWeight: FontWeight.w500),
           ),

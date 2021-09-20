@@ -17,16 +17,18 @@ class Home extends StatelessWidget {
         title: Image.asset('images/logo.png', fit: BoxFit.cover, width: 75),
       ),
       backgroundColor: Colors.grey[300],
-      body: Column(
-        children: <Widget>[
-          Container(
-            child: Column(
-              children: <Widget>[
-                SalasVirtuais(),
-              ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
+            Container(
+              child: Column(
+                children: <Widget>[
+                  SalasVirtuais(),
+                ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'periodo.dart';
 import 'card.dart';
+import 'card2.dart';
 
 class SalasVirtuais extends StatelessWidget {
   _salasVirtuais() {
@@ -20,6 +21,7 @@ class SalasVirtuais extends StatelessWidget {
           ),
           Periodo(),
           Cards(),
+          Cards2()
         ],
       ),
     );
